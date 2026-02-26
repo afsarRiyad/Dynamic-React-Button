@@ -9,6 +9,7 @@ function App() {
     const txt = (name) =>{
     const greet = window.prompt(`write your name`);
        alert(`Hi ${greet || name}`)
+           
     }
   return (
     <>
