@@ -11,6 +11,11 @@ function App() {
        alert(`Hi ${greet || name}`)
            
     }
+    //     const edit = (name) =>{
+    // const greet = window.prompt(`write your name`);
+    //    alert(`Hi ${greet || name}`)
+           
+    // }
   return (
     <>
      <Button children={<h5>Click</h5>} clickFunction = {popup} classes= 'red'/>
